@@ -1,0 +1,144 @@
+.cart {
+  background: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding: var(--main-width);
+  align-items: center;
+}
+
+.table {
+  margin-top: 3rem;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2),
+.table td:nth-child(4),
+.table td:nth-child(5),
+.table td:nth-child(6),
+.table td:nth-child(7) {
+  width: 13%;
+}
+
+.table td:nth-child(3) {
+  width: 22%;
+}
+
+.table thead {
+  font-weight: 700;
+  font-size: var(--large-size);
+  text-align: center;
+}
+
+.table thead td {
+  color: var(--white-color);
+  background-color: var(--indigo-color);
+  padding: 1.5rem 0;
+}
+
+.table tbody {
+  font-weight: 400;
+  font-size: var(--midium-size);
+  text-align: center;
+}
+
+.table tbody td {
+  color: var(--indigo-color);
+  padding: 1rem 0;
+  border-bottom: 0.5px solid gray;
+}
+
+.table tbody td image {
+  width: 6.25rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+.table tbody td .table__tbody--checkbox {
+}
+
+.table tbody td .table__tbody--number {
+  width: 25%;
+  border: none;
+}
+
+.table tbody td button {
+  padding: 0.3rem 0.7rem;
+  background-color: var(--yellow-color);
+  border: none;
+  color: var(--white-color);
+  border-radius: 5px;
+}
+
+.cart__bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.cart__bottom .cart__bottom--shipping {
+  width: 45%;
+}
+
+.cart__bottom .cart__bottom--shipping table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.cart__bottom .cart__bottom--shipping thead {
+  background-color: var(--indigo-color);
+  font-size: var(--large-size);
+  text-align: center;
+  width: 100%;
+}
+
+.cart__bottom .cart__bottom--shipping thead td {
+  color: var(--white-color);
+  padding: 1rem 0;
+}
+
+.cart__bottom .cart__bottom--shipping tbody {
+  font-size: var(--midium-size);
+  text-align: center;
+}
+
+.cart__bottom .cart__bottom--shipping tbody td {
+  padding: 1rem 0;
+  border-bottom: 0.5px solid gray;
+}
+
+.cart__bottom .car__bottom--total {
+  width: 45%;
+  margin-top: 3rem;
+}
+
+.cart__bottom .car__bottom--total table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.cart__bottom .car__bottom--total thead {
+  background-color: var(--indigo-color);
+  font-size: var(--large-size);
+  text-align: center;
+  width: 100%;
+}
+
+.cart__bottom .car__bottom--total thead td {
+  color: var(--white-color);
+  padding: 1rem 0;
+}
+
+.cart__bottom .car__bottom--total tbody {
+}
+
+.cart__bottom .car__bottom--total tbody td {
+}
